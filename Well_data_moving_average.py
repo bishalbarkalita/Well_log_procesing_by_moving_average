@@ -135,7 +135,7 @@ def well_two_plot(df):
     plt.show()
     
     
-    def processes_data(data_path):
+def processes_data(data_path):
     df=pd.read_csv(data_path,delimiter=',')
     msno.matrix(df)
     df.describe()

@@ -13,12 +13,6 @@ import missingno as msno
 
 
 
-data_frame_kimzey=pd.read_csv('file_path',delimiter=',')
-data_frame_kimzey.head(len(data_frame_kimzey))
-
-
-
-
 def well_plot(df):
     # df=pd.read_csv(data_path,delimiter=',')
     fig = plt.subplots(figsize=(10,20))
